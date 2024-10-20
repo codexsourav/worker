@@ -1,0 +1,26 @@
+{
+  "name": "mail_worker",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts",
+    "dev": "bun --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.0",
+    "@types/nodemailer": "^6.4.16"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bull": "^4.16.3",
+    "express": "^4.21.0",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.7.2",
+    "nodemailer": "^6.9.15",
+    "socket.io": "^4.8.0"
+  }
+}
