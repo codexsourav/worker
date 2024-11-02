@@ -47,7 +47,7 @@ export const jobProvider = async (req: Request, res: Response): Promise<any> => 
         mail: {
             ...body.mail,
             html: body.mail.body,
-            from: body.mail.from || "info@idealedesigns.com",
+            from: body.mail.from || "sourav0w@gmail.com",
             subject: body.mail.subject || "Test mail form - idealedesigns.com"
         },
     }
